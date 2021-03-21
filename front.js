@@ -44,9 +44,6 @@ $('#get-result').click(function(){
 					min: 0,
 					max: 6,
 					stepSize: 1
-				},
-				pointLabels: {
-					fontSize: 18
 				}
 			},
 			legend: {
