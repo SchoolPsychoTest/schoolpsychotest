@@ -34,6 +34,10 @@ $('#get-result').click(function(){
 			label: answers[0].value,
 			backgroundColor: "rgba(200,0,0,0.2)",
 			data: [diaData.critical, diaData.creative, diaData.communicative, diaData.cooperative]
+		}, {
+			label: "0000",
+			backgroundColor: "rgba(0,0,200,0.2)",
+			data: [0, 0, 0, 0]
 		}]
 		};
 
