@@ -45,9 +45,6 @@ $('#get-result').click(function(){
 					max: 6,
 					stepSize: 1
 				}
-			},
-			legend: {
-				position: 'left'
 			}
 		};
 		var radarChart = new Chart(marksCanvas, {
